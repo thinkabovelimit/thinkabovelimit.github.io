@@ -14,17 +14,19 @@ author: Krishnaprasad
 # --- List of links in the navigation bar --- #
 
 navbar-links:
- # About Me: "aboutmee"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  About Me: "aboutme"
+  Blogs: "medium"
+  Connect me:
+    - Github: "https://github.com/thinkabovelimit"
+    - Instagram: "https://www.markdowntutorial.com/"
+    - Linked in: "https://www.linkedin.com/in/krishnaprasad-k-004b32151/"
+ # Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/my_image.jpeg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -193,7 +195,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "India"
+timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
